@@ -1,0 +1,87 @@
+.button {
+    -fx-font-family: "Verdana";
+
+    -fx-background-color: white;
+    -fx-border-color: #FFBC03;
+    -fx-border-width:2px;
+    -fx-border-radius:3px;
+    -fx-font-size:11pt;
+    -fx-pref-width:150px;
+}
+
+.button:hover {
+    -fx-background-color: #FFEFC4;
+}
+
+
+.date-picker {
+    -fx-font-size:11pt;
+
+}
+
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+    -fx-font-size:11pt;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+}
+
+.combo-box 
+{
+
+    -fx-font-size:11pt;
+}
+
+.text-field {
+    -fx-font-size:11pt;
+
+}
+
+
+.text-field {
+    -fx-font-size:11pt;
+
+}
+
+.dialog-pane {
+    -fx-font-size:11pt;
+    -fx-background-color: white;
+    -fx-border-color:#133A65;
+    -fx-border-width: 2 2 2 14 ;
+
+}
+
+
+
+.root {
+    -fx-background-color: white;
+    -fx-border-width:2px;
+    -fx-font-size:11pt;
+}
+
+
+.chart-bar {
+    -fx-background-color: linear (0%,0%) to (0%,100%)   stops (0%, derive(-fx-bar-fill,-30%)) 
+        (100%, derive(-fx-bar-fill,-40%)),
+        linear (0%,0%) to (0%,100%) 
+        stops (0%, derive(-fx-bar-fill,80%)) 
+        (100%, derive(-fx-bar-fill, 0%)),
+        linear (0%,0%) to (0%,100%) 
+        stops (0%, derive(-fx-bar-fill,30%)) 
+        (100%, derive(-fx-bar-fill,-10%));
+    -fx-background-insets: 0,1,2;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0, 3 3 0 0;
+}
+
+.default-color0.chart-bar {    -fx-bar-fill: #22bad9; }
+.default-color1.chart-bar {    -fx-bar-fill:  #FFBC03; }
+
+
+.default-color0.chart-series-line { -fx-stroke:  #22bad9; }
+.default-color0.chart-line-symbol { -fx-background-color: #22bad9, white; }
+
+
+.default-color1.chart-series-line { -fx-stroke: #FFBC03; }
+.default-color1.chart-line-symbol { -fx-background-color: #FFBC03, white; }
+
